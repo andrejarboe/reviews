@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
-import people from './data';
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import Review from './Review';
 
-const Review = () => {
+
+const App = () => {
 	return (
 		<main>
-			<div className="container">
-				<div className="title">
-					<h2>our reviews</h2>
-				</div>
-			</div>
+			<section className="container">
+                <div className="title">
+                    <h2>my reviews</h2>
+                    <div className="underline"></div>
+                </div>
+                <Review />
+			</section>
 		</main>
 	);
 };
