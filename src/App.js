@@ -7,7 +7,7 @@ const App = () => {
 		<main>
 			<section className="container">
 				<div className="title">
-					<h2>my reviews</h2>
+					<h2>my reviews (fake)</h2>
 					<div className="underline"></div>
 				</div>
 				<Review />
